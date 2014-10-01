@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Web Developer Express 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "web", "web\", "{3FC29398-007B-4E94-8738-CE525F3B620D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		ProjectReferences = "{0E5F0E3A-56D2-4033-A0C3-703BE006AFC2}|dar.dll;{3E02EE89-BC7A-4587-8DAC-DB8812AA1118}|intf.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/web"
+		Debug.AspNetCompiler.PhysicalPath = "web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\web\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/web"
+		Release.AspNetCompiler.PhysicalPath = "web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\web\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3838"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "intf", "intf\intf.csproj", "{3E02EE89-BC7A-4587-8DAC-DB8812AA1118}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dar", "..\dar\dar.csproj", "{0E5F0E3A-56D2-4033-A0C3-703BE006AFC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FC29398-007B-4E94-8738-CE525F3B620D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FC29398-007B-4E94-8738-CE525F3B620D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FC29398-007B-4E94-8738-CE525F3B620D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FC29398-007B-4E94-8738-CE525F3B620D}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{0E5F0E3A-56D2-4033-A0C3-703BE006AFC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E5F0E3A-56D2-4033-A0C3-703BE006AFC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E5F0E3A-56D2-4033-A0C3-703BE006AFC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E5F0E3A-56D2-4033-A0C3-703BE006AFC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E02EE89-BC7A-4587-8DAC-DB8812AA1118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E02EE89-BC7A-4587-8DAC-DB8812AA1118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E02EE89-BC7A-4587-8DAC-DB8812AA1118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E02EE89-BC7A-4587-8DAC-DB8812AA1118}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
